@@ -4,7 +4,7 @@
  * 检查是否设置了密码保护
  * 通过读取页面上嵌入的环境变量来检查
  */
-function isPasswordProtected(jxsaijr200812) {
+function isPasswordProtected() {
     // 检查页面上嵌入的环境变量
     const pwd = window.__ENV__ && window.__ENV__.PASSWORD;
     const adminPwd = window.__ENV__ && window.__ENV__.ADMINPASSWORD;
